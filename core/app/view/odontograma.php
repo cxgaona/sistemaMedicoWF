@@ -17,7 +17,7 @@
             $user = $_SESSION['codper'];
             $nombre = null;
 
-            $link = mysqli_connect("localhost","root");
+            $link = mysqli_connect("localhost","id15896132_smilemed");
             mysqli_select_db($link, "bd_odontograma");
             $result = mysqli_query($link, "select * from persona where cod_persona = $user");
             while ($row = mysqli_fetch_row($result)) {

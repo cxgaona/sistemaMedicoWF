@@ -1,7 +1,7 @@
 <?php
 $servidor= "localhost";
-$usuario= "root";
-$password = "";
+$usuario= "id15896132_smilemed";
+$password = "uzhy?8!p#]Jp5[@G";
 $nombreBD= "bookmedik";
 $db = new mysqli($servidor, $usuario, $password, $nombreBD);
 if ($db->connect_error) {

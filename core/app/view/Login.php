@@ -43,7 +43,7 @@
             
             if (isset($_POST['txtdni']) && isset($_POST['txtcontrasena'])) {
                 $dni = $_POST['txtdni'];
-                $link = mysqli_connect("localhost","root");
+                $link = mysqli_connect("localhost","id15896132_smilemed");
                 $tipo =null;
                 mysqli_select_db($link, "bd_odontograma");
                 $result = mysqli_query($link, "select * from usuario where username='".$dni."'");    
